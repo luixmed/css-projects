@@ -4,7 +4,49 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Recipe App</title>
-    <style></style>
+    <style>
+      body {
+        padding: 16px 32px;
+      }
+
+      h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+      }
+
+      p {
+        margin-bottom: 24px;
+      }
+
+      /* We'll learn about this later on! */
+      aside p:last-of-type {
+        margin-bottom: 0;
+      }
+
+      aside {
+        background: peachpuff;
+        border: 2px solid;
+        padding: 16px;
+      }
+
+      /******* SOLUTION *******/
+
+      article a {
+        color: deeppink;
+        text-decoration: none;
+      }
+      article a:hover {
+        text-decoration: underline;
+      }
+
+      aside a {
+        color: black;
+        text-decoration: underline;
+      }
+      aside a:hover {
+        text-decoration: none;
+      }
+    </style>
   </head>
   <body>
     <article class="recipe">
